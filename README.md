@@ -1,0 +1,2 @@
+# BossbarEvent
+Example event
