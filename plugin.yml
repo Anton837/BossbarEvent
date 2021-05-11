@@ -1,0 +1,5 @@
+name: BossbarEv
+version: 1.0.0
+main: Event\BossbarEvent
+api: 3.17.5
+author: LorenMCBE
