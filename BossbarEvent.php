@@ -12,12 +12,12 @@ use pocketmine\Player;
 class BossbarEvent
 {
   
-  public function __construct( int $eventType = 0, float $health = 1, string $title = "")
+  public function __construct( int $eventType = 0, float $score = 1.0, string $title = "")
   {
     $this->pk = new BossEventPacket();
     
     $this->pk->eventType = $eventType;
-    $this->pk->healthPercent = $health;
+    $this->pk->healthPercent = $score;
     $this->pk->title = $title;
     $this->pk->color = 1;
     $this->pk->overlay = 1;
