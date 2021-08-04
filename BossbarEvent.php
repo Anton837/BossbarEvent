@@ -14,10 +14,6 @@ class BossbarEvent
   
   public function __construct( int $eventType = 0, float $health = 1, string $title = "")
   {
-    $this->title = $title;
-    $this->health = $health;
-    $this->eventType = $eventType;
-    
     $this->pk = new BossEventPacket();
     
     $this->pk->eventType = $eventType;
